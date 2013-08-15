@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0148CE5617BD7FA6001A558C /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0148CE5417BD7FA6001A558C /* Model.xcdatamodeld */; };
+		01612A9E17BD97CD0037ED45 /* Units.m in Sources */ = {isa = PBXBuildFile; fileRef = 01612A9D17BD97CD0037ED45 /* Units.m */; };
+		01612AA717BD98390037ED45 /* ArcherTower.m in Sources */ = {isa = PBXBuildFile; fileRef = 01612AA617BD98390037ED45 /* ArcherTower.m */; };
+		01612AAA17BD98390037ED45 /* Cannon.m in Sources */ = {isa = PBXBuildFile; fileRef = 01612AA917BD98390037ED45 /* Cannon.m */; };
+		01612AAD17BD98390037ED45 /* Giant.m in Sources */ = {isa = PBXBuildFile; fileRef = 01612AAC17BD98390037ED45 /* Giant.m */; };
+		01612AB017BD98390037ED45 /* Archer.m in Sources */ = {isa = PBXBuildFile; fileRef = 01612AAF17BD98390037ED45 /* Archer.m */; };
+		01612AB317BD98390037ED45 /* Ballon.m in Sources */ = {isa = PBXBuildFile; fileRef = 01612AB217BD98390037ED45 /* Ballon.m */; };
+		01612AB617BD983A0037ED45 /* Barbarian.m in Sources */ = {isa = PBXBuildFile; fileRef = 01612AB517BD983A0037ED45 /* Barbarian.m */; };
+		01612AB917BD983A0037ED45 /* WallBreaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 01612AB817BD983A0037ED45 /* WallBreaker.m */; };
+		01612ABC17BD983A0037ED45 /* Goblin.m in Sources */ = {isa = PBXBuildFile; fileRef = 01612ABB17BD983A0037ED45 /* Goblin.m */; };
+		01612AC517BD994A0037ED45 /* Attacker.m in Sources */ = {isa = PBXBuildFile; fileRef = 01612AC417BD994A0037ED45 /* Attacker.m */; };
+		01612AC817BD99AE0037ED45 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 01612AC717BD99AE0037ED45 /* Player.m */; };
 		67B60F8F17BC4DA800C7FBC1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67B60F8E17BC4DA800C7FBC1 /* UIKit.framework */; };
 		67B60F9117BC4DA800C7FBC1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67B60F9017BC4DA800C7FBC1 /* Foundation.framework */; };
 		67B60F9317BC4DA800C7FBC1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67B60F9217BC4DA800C7FBC1 /* CoreGraphics.framework */; };
@@ -26,6 +38,29 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0148CE5517BD7FA6001A558C /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		01612A9C17BD97CD0037ED45 /* Units.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Units.h; sourceTree = "<group>"; };
+		01612A9D17BD97CD0037ED45 /* Units.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Units.m; sourceTree = "<group>"; };
+		01612AA517BD98390037ED45 /* ArcherTower.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArcherTower.h; sourceTree = "<group>"; };
+		01612AA617BD98390037ED45 /* ArcherTower.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArcherTower.m; sourceTree = "<group>"; };
+		01612AA817BD98390037ED45 /* Cannon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cannon.h; sourceTree = "<group>"; };
+		01612AA917BD98390037ED45 /* Cannon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cannon.m; sourceTree = "<group>"; };
+		01612AAB17BD98390037ED45 /* Giant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Giant.h; sourceTree = "<group>"; };
+		01612AAC17BD98390037ED45 /* Giant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Giant.m; sourceTree = "<group>"; };
+		01612AAE17BD98390037ED45 /* Archer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Archer.h; sourceTree = "<group>"; };
+		01612AAF17BD98390037ED45 /* Archer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Archer.m; sourceTree = "<group>"; };
+		01612AB117BD98390037ED45 /* Ballon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ballon.h; sourceTree = "<group>"; };
+		01612AB217BD98390037ED45 /* Ballon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ballon.m; sourceTree = "<group>"; };
+		01612AB417BD98390037ED45 /* Barbarian.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Barbarian.h; sourceTree = "<group>"; };
+		01612AB517BD983A0037ED45 /* Barbarian.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Barbarian.m; sourceTree = "<group>"; };
+		01612AB717BD983A0037ED45 /* WallBreaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WallBreaker.h; sourceTree = "<group>"; };
+		01612AB817BD983A0037ED45 /* WallBreaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WallBreaker.m; sourceTree = "<group>"; };
+		01612ABA17BD983A0037ED45 /* Goblin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Goblin.h; sourceTree = "<group>"; };
+		01612ABB17BD983A0037ED45 /* Goblin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Goblin.m; sourceTree = "<group>"; };
+		01612AC317BD994A0037ED45 /* Attacker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Attacker.h; sourceTree = "<group>"; };
+		01612AC417BD994A0037ED45 /* Attacker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Attacker.m; sourceTree = "<group>"; };
+		01612AC617BD99AE0037ED45 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		01612AC717BD99AE0037ED45 /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
 		67B60F8B17BC4DA800C7FBC1 /* GeneralTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeneralTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		67B60F8E17BC4DA800C7FBC1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		67B60F9017BC4DA800C7FBC1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -67,6 +102,74 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		01612A9F17BD97ED0037ED45 /* PatternOne */ = {
+			isa = PBXGroup;
+			children = (
+				67B60FB517BC506F00C7FBC1 /* GTPatternOneViewController.h */,
+				67B60FB617BC506F00C7FBC1 /* GTPatternOneViewController.m */,
+			);
+			name = PatternOne;
+			sourceTree = "<group>";
+		};
+		01612AA017BD97FB0037ED45 /* PatternTwo */ = {
+			isa = PBXGroup;
+			children = (
+				67B65D4517BC55CA0017C824 /* GTPatternTwoViewController.h */,
+				67B65D4617BC55CA0017C824 /* GTPatternTwoViewController.m */,
+			);
+			name = PatternTwo;
+			sourceTree = "<group>";
+		};
+		01612AA117BD98060037ED45 /* PatternThree */ = {
+			isa = PBXGroup;
+			children = (
+				67B65D4817BC65A70017C824 /* GTPatternThreeViewController.h */,
+				67B65D4917BC65A70017C824 /* GTPatternThreeViewController.m */,
+			);
+			name = PatternThree;
+			sourceTree = "<group>";
+		};
+		01612ABD17BD98600037ED45 /* MobileAttackers */ = {
+			isa = PBXGroup;
+			children = (
+				01612ABA17BD983A0037ED45 /* Goblin.h */,
+				01612ABB17BD983A0037ED45 /* Goblin.m */,
+				01612AB717BD983A0037ED45 /* WallBreaker.h */,
+				01612AB817BD983A0037ED45 /* WallBreaker.m */,
+				01612AB417BD98390037ED45 /* Barbarian.h */,
+				01612AB517BD983A0037ED45 /* Barbarian.m */,
+				01612AB117BD98390037ED45 /* Ballon.h */,
+				01612AB217BD98390037ED45 /* Ballon.m */,
+				01612AAE17BD98390037ED45 /* Archer.h */,
+				01612AAF17BD98390037ED45 /* Archer.m */,
+				01612AAB17BD98390037ED45 /* Giant.h */,
+				01612AAC17BD98390037ED45 /* Giant.m */,
+			);
+			name = MobileAttackers;
+			sourceTree = "<group>";
+		};
+		01612ABE17BD986F0037ED45 /* Defenses */ = {
+			isa = PBXGroup;
+			children = (
+				01612AA817BD98390037ED45 /* Cannon.h */,
+				01612AA917BD98390037ED45 /* Cannon.m */,
+				01612AA517BD98390037ED45 /* ArcherTower.h */,
+				01612AA617BD98390037ED45 /* ArcherTower.m */,
+			);
+			name = Defenses;
+			sourceTree = "<group>";
+		};
+		01612ABF17BD98850037ED45 /* Attackers */ = {
+			isa = PBXGroup;
+			children = (
+				01612AC317BD994A0037ED45 /* Attacker.h */,
+				01612AC417BD994A0037ED45 /* Attacker.m */,
+				01612ABD17BD98600037ED45 /* MobileAttackers */,
+				01612ABE17BD986F0037ED45 /* Defenses */,
+			);
+			name = Attackers;
+			sourceTree = "<group>";
+		};
 		67B60F8217BC4DA800C7FBC1 = {
 			isa = PBXGroup;
 			children = (
@@ -127,12 +230,9 @@
 		67B60FB417BC505A00C7FBC1 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
-				67B60FB517BC506F00C7FBC1 /* GTPatternOneViewController.h */,
-				67B60FB617BC506F00C7FBC1 /* GTPatternOneViewController.m */,
-				67B65D4517BC55CA0017C824 /* GTPatternTwoViewController.h */,
-				67B65D4617BC55CA0017C824 /* GTPatternTwoViewController.m */,
-				67B65D4817BC65A70017C824 /* GTPatternThreeViewController.h */,
-				67B65D4917BC65A70017C824 /* GTPatternThreeViewController.m */,
+				01612A9F17BD97ED0037ED45 /* PatternOne */,
+				01612AA017BD97FB0037ED45 /* PatternTwo */,
+				01612AA117BD98060037ED45 /* PatternThree */,
 				67B65D4C17BD79900017C824 /* GTReverseViewController.h */,
 				67B65D4D17BD79900017C824 /* GTReverseViewController.m */,
 			);
@@ -142,6 +242,12 @@
 		67B65D4B17BD797B0017C824 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				0148CE5417BD7FA6001A558C /* Model.xcdatamodeld */,
+				01612A9C17BD97CD0037ED45 /* Units.h */,
+				01612A9D17BD97CD0037ED45 /* Units.m */,
+				01612AC617BD99AE0037ED45 /* Player.h */,
+				01612AC717BD99AE0037ED45 /* Player.m */,
+				01612ABF17BD98850037ED45 /* Attackers */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -221,6 +327,18 @@
 				67B65D4717BC55CA0017C824 /* GTPatternTwoViewController.m in Sources */,
 				67B65D4A17BC65A70017C824 /* GTPatternThreeViewController.m in Sources */,
 				67B65D4E17BD79900017C824 /* GTReverseViewController.m in Sources */,
+				0148CE5617BD7FA6001A558C /* Model.xcdatamodeld in Sources */,
+				01612A9E17BD97CD0037ED45 /* Units.m in Sources */,
+				01612AA717BD98390037ED45 /* ArcherTower.m in Sources */,
+				01612AAA17BD98390037ED45 /* Cannon.m in Sources */,
+				01612AAD17BD98390037ED45 /* Giant.m in Sources */,
+				01612AB017BD98390037ED45 /* Archer.m in Sources */,
+				01612AB317BD98390037ED45 /* Ballon.m in Sources */,
+				01612AB617BD983A0037ED45 /* Barbarian.m in Sources */,
+				01612AB917BD983A0037ED45 /* WallBreaker.m in Sources */,
+				01612ABC17BD983A0037ED45 /* Goblin.m in Sources */,
+				01612AC517BD994A0037ED45 /* Attacker.m in Sources */,
+				01612AC817BD99AE0037ED45 /* Player.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,6 +474,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		0148CE5417BD7FA6001A558C /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				0148CE5517BD7FA6001A558C /* Model.xcdatamodel */,
+			);
+			currentVersion = 0148CE5517BD7FA6001A558C /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 67B60F8317BC4DA800C7FBC1 /* Project object */;
 }
