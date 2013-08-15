@@ -20,6 +20,7 @@
 		67B60FAB17BC4DA800C7FBC1 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67B60FA917BC4DA800C7FBC1 /* MainStoryboard_iPad.storyboard */; };
 		67B60FAE17BC4DA800C7FBC1 /* GTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67B60FAD17BC4DA800C7FBC1 /* GTViewController.m */; };
 		67B60FB717BC506F00C7FBC1 /* GTPatternOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67B60FB617BC506F00C7FBC1 /* GTPatternOneViewController.m */; };
+		67B65D4717BC55CA0017C824 /* GTPatternTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67B65D4617BC55CA0017C824 /* GTPatternTwoViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,8 @@
 		67B60FAD17BC4DA800C7FBC1 /* GTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTViewController.m; sourceTree = "<group>"; };
 		67B60FB517BC506F00C7FBC1 /* GTPatternOneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTPatternOneViewController.h; sourceTree = "<group>"; };
 		67B60FB617BC506F00C7FBC1 /* GTPatternOneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTPatternOneViewController.m; sourceTree = "<group>"; };
+		67B65D4517BC55CA0017C824 /* GTPatternTwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTPatternTwoViewController.h; sourceTree = "<group>"; };
+		67B65D4617BC55CA0017C824 /* GTPatternTwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTPatternTwoViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 			children = (
 				67B60FB517BC506F00C7FBC1 /* GTPatternOneViewController.h */,
 				67B60FB617BC506F00C7FBC1 /* GTPatternOneViewController.m */,
+				67B65D4517BC55CA0017C824 /* GTPatternTwoViewController.h */,
+				67B65D4617BC55CA0017C824 /* GTPatternTwoViewController.m */,
 			);
 			name = Scenes;
 			sourceTree = "<group>";
@@ -195,6 +200,7 @@
 				67B60F9F17BC4DA800C7FBC1 /* GTAppDelegate.m in Sources */,
 				67B60FAE17BC4DA800C7FBC1 /* GTViewController.m in Sources */,
 				67B60FB717BC506F00C7FBC1 /* GTPatternOneViewController.m in Sources */,
+				67B65D4717BC55CA0017C824 /* GTPatternTwoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,6 +333,7 @@
 				67B60FB317BC4DA800C7FBC1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
