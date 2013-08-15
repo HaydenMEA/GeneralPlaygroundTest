@@ -23,6 +23,18 @@
 		67B65D4717BC55CA0017C824 /* GTPatternTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67B65D4617BC55CA0017C824 /* GTPatternTwoViewController.m */; };
 		67B65D4A17BC65A70017C824 /* GTPatternThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67B65D4917BC65A70017C824 /* GTPatternThreeViewController.m */; };
 		67B65D4E17BD79900017C824 /* GTReverseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67B65D4D17BD79900017C824 /* GTReverseViewController.m */; };
+		67B65D5117BD7FA50017C824 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 67B65D4F17BD7FA50017C824 /* Model.xcdatamodeld */; };
+		67B65D5417BD97CC0017C824 /* Unit.m in Sources */ = {isa = PBXBuildFile; fileRef = 67B65D5317BD97CC0017C824 /* Unit.m */; };
+		67B65D5B17BD98380017C824 /* WallBreaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 67B65D5A17BD98380017C824 /* WallBreaker.m */; };
+		67B65D5E17BD98390017C824 /* Balloon.m in Sources */ = {isa = PBXBuildFile; fileRef = 67B65D5D17BD98390017C824 /* Balloon.m */; };
+		67B65D6117BD98390017C824 /* Giant.m in Sources */ = {isa = PBXBuildFile; fileRef = 67B65D6017BD98390017C824 /* Giant.m */; };
+		67B65D6417BD98390017C824 /* Cannon.m in Sources */ = {isa = PBXBuildFile; fileRef = 67B65D6317BD98390017C824 /* Cannon.m */; };
+		67B65D6717BD98390017C824 /* Archer.m in Sources */ = {isa = PBXBuildFile; fileRef = 67B65D6617BD98390017C824 /* Archer.m */; };
+		67B65D6A17BD98390017C824 /* ArcherTower.m in Sources */ = {isa = PBXBuildFile; fileRef = 67B65D6917BD98390017C824 /* ArcherTower.m */; };
+		67B65D6D17BD98390017C824 /* Barbarian.m in Sources */ = {isa = PBXBuildFile; fileRef = 67B65D6C17BD98390017C824 /* Barbarian.m */; };
+		67B65D7017BD983A0017C824 /* Goblin.m in Sources */ = {isa = PBXBuildFile; fileRef = 67B65D6F17BD983A0017C824 /* Goblin.m */; };
+		67B65D7617BD99240017C824 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 67B65D7517BD99240017C824 /* Player.m */; };
+		67B65D7917BD993F0017C824 /* Attacker.m in Sources */ = {isa = PBXBuildFile; fileRef = 67B65D7817BD993F0017C824 /* Attacker.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +63,29 @@
 		67B65D4917BC65A70017C824 /* GTPatternThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTPatternThreeViewController.m; sourceTree = "<group>"; };
 		67B65D4C17BD79900017C824 /* GTReverseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTReverseViewController.h; sourceTree = "<group>"; };
 		67B65D4D17BD79900017C824 /* GTReverseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTReverseViewController.m; sourceTree = "<group>"; };
+		67B65D5017BD7FA50017C824 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		67B65D5217BD97CC0017C824 /* Unit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Unit.h; sourceTree = "<group>"; };
+		67B65D5317BD97CC0017C824 /* Unit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Unit.m; sourceTree = "<group>"; };
+		67B65D5917BD98380017C824 /* WallBreaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WallBreaker.h; sourceTree = "<group>"; };
+		67B65D5A17BD98380017C824 /* WallBreaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WallBreaker.m; sourceTree = "<group>"; };
+		67B65D5C17BD98390017C824 /* Balloon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Balloon.h; sourceTree = "<group>"; };
+		67B65D5D17BD98390017C824 /* Balloon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Balloon.m; sourceTree = "<group>"; };
+		67B65D5F17BD98390017C824 /* Giant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Giant.h; sourceTree = "<group>"; };
+		67B65D6017BD98390017C824 /* Giant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Giant.m; sourceTree = "<group>"; };
+		67B65D6217BD98390017C824 /* Cannon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cannon.h; sourceTree = "<group>"; };
+		67B65D6317BD98390017C824 /* Cannon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cannon.m; sourceTree = "<group>"; };
+		67B65D6517BD98390017C824 /* Archer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Archer.h; sourceTree = "<group>"; };
+		67B65D6617BD98390017C824 /* Archer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Archer.m; sourceTree = "<group>"; };
+		67B65D6817BD98390017C824 /* ArcherTower.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArcherTower.h; sourceTree = "<group>"; };
+		67B65D6917BD98390017C824 /* ArcherTower.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArcherTower.m; sourceTree = "<group>"; };
+		67B65D6B17BD98390017C824 /* Barbarian.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Barbarian.h; sourceTree = "<group>"; };
+		67B65D6C17BD98390017C824 /* Barbarian.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Barbarian.m; sourceTree = "<group>"; };
+		67B65D6E17BD983A0017C824 /* Goblin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Goblin.h; sourceTree = "<group>"; };
+		67B65D6F17BD983A0017C824 /* Goblin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Goblin.m; sourceTree = "<group>"; };
+		67B65D7417BD99240017C824 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		67B65D7517BD99240017C824 /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+		67B65D7717BD993F0017C824 /* Attacker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Attacker.h; sourceTree = "<group>"; };
+		67B65D7817BD993F0017C824 /* Attacker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Attacker.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,8 +177,55 @@
 		67B65D4B17BD797B0017C824 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				67B65D4F17BD7FA50017C824 /* Model.xcdatamodeld */,
+				67B65D5217BD97CC0017C824 /* Unit.h */,
+				67B65D5317BD97CC0017C824 /* Unit.m */,
+				67B65D7417BD99240017C824 /* Player.h */,
+				67B65D7517BD99240017C824 /* Player.m */,
+				67B65D7317BD987A0017C824 /* Attackers */,
 			);
 			name = Model;
+			sourceTree = "<group>";
+		};
+		67B65D7117BD98490017C824 /* MobileAttackers */ = {
+			isa = PBXGroup;
+			children = (
+				67B65D5917BD98380017C824 /* WallBreaker.h */,
+				67B65D5A17BD98380017C824 /* WallBreaker.m */,
+				67B65D6E17BD983A0017C824 /* Goblin.h */,
+				67B65D6F17BD983A0017C824 /* Goblin.m */,
+				67B65D6B17BD98390017C824 /* Barbarian.h */,
+				67B65D6C17BD98390017C824 /* Barbarian.m */,
+				67B65D6517BD98390017C824 /* Archer.h */,
+				67B65D6617BD98390017C824 /* Archer.m */,
+				67B65D5F17BD98390017C824 /* Giant.h */,
+				67B65D6017BD98390017C824 /* Giant.m */,
+				67B65D5C17BD98390017C824 /* Balloon.h */,
+				67B65D5D17BD98390017C824 /* Balloon.m */,
+			);
+			name = MobileAttackers;
+			sourceTree = "<group>";
+		};
+		67B65D7217BD98630017C824 /* DefenceAttackers */ = {
+			isa = PBXGroup;
+			children = (
+				67B65D6817BD98390017C824 /* ArcherTower.h */,
+				67B65D6917BD98390017C824 /* ArcherTower.m */,
+				67B65D6217BD98390017C824 /* Cannon.h */,
+				67B65D6317BD98390017C824 /* Cannon.m */,
+			);
+			name = DefenceAttackers;
+			sourceTree = "<group>";
+		};
+		67B65D7317BD987A0017C824 /* Attackers */ = {
+			isa = PBXGroup;
+			children = (
+				67B65D7217BD98630017C824 /* DefenceAttackers */,
+				67B65D7117BD98490017C824 /* MobileAttackers */,
+				67B65D7717BD993F0017C824 /* Attacker.h */,
+				67B65D7817BD993F0017C824 /* Attacker.m */,
+			);
+			name = Attackers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,6 +303,18 @@
 				67B65D4717BC55CA0017C824 /* GTPatternTwoViewController.m in Sources */,
 				67B65D4A17BC65A70017C824 /* GTPatternThreeViewController.m in Sources */,
 				67B65D4E17BD79900017C824 /* GTReverseViewController.m in Sources */,
+				67B65D5117BD7FA50017C824 /* Model.xcdatamodeld in Sources */,
+				67B65D5417BD97CC0017C824 /* Unit.m in Sources */,
+				67B65D5B17BD98380017C824 /* WallBreaker.m in Sources */,
+				67B65D5E17BD98390017C824 /* Balloon.m in Sources */,
+				67B65D6117BD98390017C824 /* Giant.m in Sources */,
+				67B65D6417BD98390017C824 /* Cannon.m in Sources */,
+				67B65D6717BD98390017C824 /* Archer.m in Sources */,
+				67B65D6A17BD98390017C824 /* ArcherTower.m in Sources */,
+				67B65D6D17BD98390017C824 /* Barbarian.m in Sources */,
+				67B65D7017BD983A0017C824 /* Goblin.m in Sources */,
+				67B65D7617BD99240017C824 /* Player.m in Sources */,
+				67B65D7917BD993F0017C824 /* Attacker.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,6 +450,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		67B65D4F17BD7FA50017C824 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				67B65D5017BD7FA50017C824 /* Model.xcdatamodel */,
+			);
+			currentVersion = 67B65D5017BD7FA50017C824 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 67B60F8317BC4DA800C7FBC1 /* Project object */;
 }

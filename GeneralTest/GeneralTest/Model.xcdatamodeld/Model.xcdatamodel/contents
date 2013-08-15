@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="2061" systemVersion="12E55" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Archer" representedClassName="Archer" parentEntity="Attacker" syncable="YES"/>
+    <entity name="ArcherTower" representedClassName="ArcherTower" parentEntity="Attacker" syncable="YES"/>
+    <entity name="Attacker" representedClassName="Attacker" parentEntity="Unit" syncable="YES">
+        <attribute name="attackDelay" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="damage" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="damageType" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="favouriteTarget" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="housingSpace" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="moveSpeed" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="rangeMax" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="rangeMin" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="targets" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <relationship name="player" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Player" inverseName="attackers" inverseEntity="Player" syncable="YES"/>
+    </entity>
+    <entity name="Balloon" representedClassName="Balloon" parentEntity="Attacker" syncable="YES"/>
+    <entity name="Barbarian" representedClassName="Barbarian" parentEntity="Attacker" syncable="YES"/>
+    <entity name="Cannon" representedClassName="Cannon" parentEntity="Attacker" syncable="YES"/>
+    <entity name="Giant" representedClassName="Giant" parentEntity="Attacker" syncable="YES"/>
+    <entity name="Goblin" representedClassName="Goblin" parentEntity="Attacker" syncable="YES"/>
+    <entity name="Player" representedClassName="Player" syncable="YES">
+        <relationship name="attackers" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Attacker" inverseName="player" inverseEntity="Attacker" syncable="YES"/>
+    </entity>
+    <entity name="Unit" representedClassName="Unit" syncable="YES">
+        <attribute name="buildTime" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="cost" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="costType" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="hitpoints" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="modelPath" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="squareSpace" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="unitDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="xPos" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="yPos" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+    </entity>
+    <entity name="WallBreaker" representedClassName="WallBreaker" parentEntity="Attacker" syncable="YES"/>
+    <elements>
+        <element name="Unit" positionX="81" positionY="-112" width="128" height="193"/>
+        <element name="Attacker" positionX="-144" positionY="144" width="128" height="193"/>
+        <element name="Barbarian" positionX="-369" positionY="18" width="128" height="43"/>
+        <element name="Archer" positionX="-369" positionY="99" width="128" height="43"/>
+        <element name="Goblin" positionX="-369" positionY="180" width="128" height="43"/>
+        <element name="Giant" positionX="-369" positionY="252" width="128" height="43"/>
+        <element name="WallBreaker" positionX="-369" positionY="324" width="128" height="43"/>
+        <element name="Balloon" positionX="-369" positionY="389" width="128" height="43"/>
+        <element name="Cannon" positionX="34" positionY="144" width="128" height="43"/>
+        <element name="ArcherTower" positionX="34" positionY="216" width="128" height="43"/>
+        <element name="Player" positionX="151" positionY="428" width="128" height="58"/>
+    </elements>
+</model>
