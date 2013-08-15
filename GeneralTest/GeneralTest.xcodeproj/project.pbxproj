@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		285B0D0317BD7FA50022E13C /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 285B0D0117BD7FA50022E13C /* Model.xcdatamodeld */; };
+		285B0D0917BD97E00022E13C /* UnitProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 285B0D0817BD97E00022E13C /* UnitProperties.m */; };
+		285B0D0C17BD98300022E13C /* AttackProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 285B0D0B17BD98300022E13C /* AttackProperty.m */; };
+		285B0D0F17BD98520022E13C /* Balloon.m in Sources */ = {isa = PBXBuildFile; fileRef = 285B0D0E17BD98520022E13C /* Balloon.m */; };
+		285B0D1217BD98520022E13C /* Barbarian.m in Sources */ = {isa = PBXBuildFile; fileRef = 285B0D1117BD98520022E13C /* Barbarian.m */; };
+		285B0D1517BD98530022E13C /* Archer.m in Sources */ = {isa = PBXBuildFile; fileRef = 285B0D1417BD98530022E13C /* Archer.m */; };
+		285B0D1817BD98530022E13C /* Giant.m in Sources */ = {isa = PBXBuildFile; fileRef = 285B0D1717BD98530022E13C /* Giant.m */; };
+		285B0D1B17BD98530022E13C /* Wallbreaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 285B0D1A17BD98530022E13C /* Wallbreaker.m */; };
+		285B0D1E17BD98530022E13C /* Goblin.m in Sources */ = {isa = PBXBuildFile; fileRef = 285B0D1D17BD98530022E13C /* Goblin.m */; };
+		285B0D2517BD99DC0022E13C /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 285B0D2417BD99DC0022E13C /* Player.m */; };
 		67B60F8F17BC4DA800C7FBC1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67B60F8E17BC4DA800C7FBC1 /* UIKit.framework */; };
 		67B60F9117BC4DA800C7FBC1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67B60F9017BC4DA800C7FBC1 /* Foundation.framework */; };
 		67B60F9317BC4DA800C7FBC1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67B60F9217BC4DA800C7FBC1 /* CoreGraphics.framework */; };
@@ -26,6 +36,25 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		285B0D0217BD7FA50022E13C /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		285B0D0717BD97E00022E13C /* UnitProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnitProperties.h; sourceTree = "<group>"; };
+		285B0D0817BD97E00022E13C /* UnitProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnitProperties.m; sourceTree = "<group>"; };
+		285B0D0A17BD98300022E13C /* AttackProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AttackProperty.h; sourceTree = "<group>"; };
+		285B0D0B17BD98300022E13C /* AttackProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AttackProperty.m; sourceTree = "<group>"; };
+		285B0D0D17BD98520022E13C /* Balloon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Balloon.h; sourceTree = "<group>"; };
+		285B0D0E17BD98520022E13C /* Balloon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Balloon.m; sourceTree = "<group>"; };
+		285B0D1017BD98520022E13C /* Barbarian.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Barbarian.h; sourceTree = "<group>"; };
+		285B0D1117BD98520022E13C /* Barbarian.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Barbarian.m; sourceTree = "<group>"; };
+		285B0D1317BD98520022E13C /* Archer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Archer.h; sourceTree = "<group>"; };
+		285B0D1417BD98530022E13C /* Archer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Archer.m; sourceTree = "<group>"; };
+		285B0D1617BD98530022E13C /* Giant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Giant.h; sourceTree = "<group>"; };
+		285B0D1717BD98530022E13C /* Giant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Giant.m; sourceTree = "<group>"; };
+		285B0D1917BD98530022E13C /* Wallbreaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Wallbreaker.h; sourceTree = "<group>"; };
+		285B0D1A17BD98530022E13C /* Wallbreaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Wallbreaker.m; sourceTree = "<group>"; };
+		285B0D1C17BD98530022E13C /* Goblin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Goblin.h; sourceTree = "<group>"; };
+		285B0D1D17BD98530022E13C /* Goblin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Goblin.m; sourceTree = "<group>"; };
+		285B0D2317BD99DC0022E13C /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		285B0D2417BD99DC0022E13C /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
 		67B60F8B17BC4DA800C7FBC1 /* GeneralTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeneralTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		67B60F8E17BC4DA800C7FBC1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		67B60F9017BC4DA800C7FBC1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -67,6 +96,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		285B0D1F17BD988B0022E13C /* Army */ = {
+			isa = PBXGroup;
+			children = (
+				285B0D1C17BD98530022E13C /* Goblin.h */,
+				285B0D1D17BD98530022E13C /* Goblin.m */,
+				285B0D1917BD98530022E13C /* Wallbreaker.h */,
+				285B0D1A17BD98530022E13C /* Wallbreaker.m */,
+				285B0D1617BD98530022E13C /* Giant.h */,
+				285B0D1717BD98530022E13C /* Giant.m */,
+				285B0D1317BD98520022E13C /* Archer.h */,
+				285B0D1417BD98530022E13C /* Archer.m */,
+				285B0D1017BD98520022E13C /* Barbarian.h */,
+				285B0D1117BD98520022E13C /* Barbarian.m */,
+				285B0D0D17BD98520022E13C /* Balloon.h */,
+				285B0D0E17BD98520022E13C /* Balloon.m */,
+			);
+			name = Army;
+			sourceTree = "<group>";
+		};
 		67B60F8217BC4DA800C7FBC1 = {
 			isa = PBXGroup;
 			children = (
@@ -142,6 +190,14 @@
 		67B65D4B17BD797B0017C824 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				285B0D1F17BD988B0022E13C /* Army */,
+				285B0D0117BD7FA50022E13C /* Model.xcdatamodeld */,
+				285B0D2317BD99DC0022E13C /* Player.h */,
+				285B0D2417BD99DC0022E13C /* Player.m */,
+				285B0D0A17BD98300022E13C /* AttackProperty.h */,
+				285B0D0B17BD98300022E13C /* AttackProperty.m */,
+				285B0D0717BD97E00022E13C /* UnitProperties.h */,
+				285B0D0817BD97E00022E13C /* UnitProperties.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -221,6 +277,16 @@
 				67B65D4717BC55CA0017C824 /* GTPatternTwoViewController.m in Sources */,
 				67B65D4A17BC65A70017C824 /* GTPatternThreeViewController.m in Sources */,
 				67B65D4E17BD79900017C824 /* GTReverseViewController.m in Sources */,
+				285B0D0317BD7FA50022E13C /* Model.xcdatamodeld in Sources */,
+				285B0D0917BD97E00022E13C /* UnitProperties.m in Sources */,
+				285B0D0C17BD98300022E13C /* AttackProperty.m in Sources */,
+				285B0D0F17BD98520022E13C /* Balloon.m in Sources */,
+				285B0D1217BD98520022E13C /* Barbarian.m in Sources */,
+				285B0D1517BD98530022E13C /* Archer.m in Sources */,
+				285B0D1817BD98530022E13C /* Giant.m in Sources */,
+				285B0D1B17BD98530022E13C /* Wallbreaker.m in Sources */,
+				285B0D1E17BD98530022E13C /* Goblin.m in Sources */,
+				285B0D2517BD99DC0022E13C /* Player.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,6 +422,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		285B0D0117BD7FA50022E13C /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				285B0D0217BD7FA50022E13C /* Model.xcdatamodel */,
+			);
+			currentVersion = 285B0D0217BD7FA50022E13C /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 67B60F8317BC4DA800C7FBC1 /* Project object */;
 }

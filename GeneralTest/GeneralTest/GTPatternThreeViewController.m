@@ -28,81 +28,33 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
 	
-	NSArray *colors = @[[UIColor redColor], [UIColor orangeColor], [UIColor yellowColor], [UIColor greenColor], [UIColor blueColor], [UIColor purpleColor]];
+	NSArray *colors = @[[UIColor redColor], [UIColor brownColor], [UIColor orangeColor], [UIColor yellowColor], [UIColor greenColor], [UIColor blueColor], [UIColor purpleColor], [UIColor darkGrayColor], [UIColor blackColor]];
 	
-	CGFloat xPos = 0;
 	CGFloat yPos = 0;
 	CGFloat width = self.view.frame.size.width / colors.count;
+
 	
-	//--- line 1
-	{
-		CGRect frame = CGRectMake(xPos, yPos, width, width);
-		UIView *view = [[UIView alloc] initWithFrame:frame];
-		view.backgroundColor = colors[0];
-		[self.view addSubview:view];
-	}
-	xPos += width;
-	{
-		CGRect frame = CGRectMake(xPos, yPos, width, width);
-		UIView *view = [[UIView alloc] initWithFrame:frame];
-		view.backgroundColor = colors[1];
-		[self.view addSubview:view];
-	}
-	xPos += width;
-	{
-		CGRect frame = CGRectMake(xPos, yPos, width, width);
-		UIView *view = [[UIView alloc] initWithFrame:frame];
-		view.backgroundColor = colors[2];
-		[self.view addSubview:view];
-	}
-	//--- line 2
-	xPos = 0;
-	yPos += width;
-	{
-		CGRect frame = CGRectMake(xPos, yPos, width, width);
-		UIView *view = [[UIView alloc] initWithFrame:frame];
-		view.backgroundColor = colors[5];
-		[self.view addSubview:view];
-	}
-	xPos += width;
-	{
-		CGRect frame = CGRectMake(xPos, yPos, width, width);
-		UIView *view = [[UIView alloc] initWithFrame:frame];
-		view.backgroundColor = colors[0];
-		[self.view addSubview:view];
-	}
-	xPos += width;
-	{
-		CGRect frame = CGRectMake(xPos, yPos, width, width);
-		UIView *view = [[UIView alloc] initWithFrame:frame];
-		view.backgroundColor = colors[1];
-		[self.view addSubview:view];
-	}
-	//--- line 3
-	xPos = 0;
-	yPos += width;
-	{
-		CGRect frame = CGRectMake(xPos, yPos, width, width);
-		UIView *view = [[UIView alloc] initWithFrame:frame];
-		view.backgroundColor = colors[4];
-		[self.view addSubview:view];
-	}
-	xPos += width;
-	{
-		CGRect frame = CGRectMake(xPos, yPos, width, width);
-		UIView *view = [[UIView alloc] initWithFrame:frame];
-		view.backgroundColor = colors[5];
-		[self.view addSubview:view];
-	}
-	xPos += width;
-	{
-		CGRect frame = CGRectMake(xPos, yPos, width, width);
-		UIView *view = [[UIView alloc] initWithFrame:frame];
-		view.backgroundColor = colors[0];
-		[self.view addSubview:view];
-	}
+
 	
+	for( int j=0; j< colors.count; j++)
+	{
+		CGFloat xPos = 0;
+
+		for( int i=0; i< (colors.count); i++)
+		{
+			int x = (colors.count-j+i)%colors.count;
+			CGRect frame = CGRectMake(xPos, yPos, width, width);
+			UIView *view = [[UIView alloc] initWithFrame:frame];
+			view.backgroundColor = colors[x];
+			[self.view addSubview:view];
+			xPos += width;
+			NSLog(@"x is %i", x);
+		}
+		yPos += width;
+
+	}
 }
+
 
 - (void)didReceiveMemoryWarning
 {
