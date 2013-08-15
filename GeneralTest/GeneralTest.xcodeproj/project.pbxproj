@@ -22,6 +22,7 @@
 		67B60FB717BC506F00C7FBC1 /* GTPatternOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67B60FB617BC506F00C7FBC1 /* GTPatternOneViewController.m */; };
 		67B65D4717BC55CA0017C824 /* GTPatternTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67B65D4617BC55CA0017C824 /* GTPatternTwoViewController.m */; };
 		67B65D4A17BC65A70017C824 /* GTPatternThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67B65D4917BC65A70017C824 /* GTPatternThreeViewController.m */; };
+		67B65D4E17BD79900017C824 /* GTReverseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67B65D4D17BD79900017C824 /* GTReverseViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +49,8 @@
 		67B65D4617BC55CA0017C824 /* GTPatternTwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTPatternTwoViewController.m; sourceTree = "<group>"; };
 		67B65D4817BC65A70017C824 /* GTPatternThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTPatternThreeViewController.h; sourceTree = "<group>"; };
 		67B65D4917BC65A70017C824 /* GTPatternThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTPatternThreeViewController.m; sourceTree = "<group>"; };
+		67B65D4C17BD79900017C824 /* GTReverseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTReverseViewController.h; sourceTree = "<group>"; };
+		67B65D4D17BD79900017C824 /* GTReverseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTReverseViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +103,7 @@
 				67B60FA917BC4DA800C7FBC1 /* MainStoryboard_iPad.storyboard */,
 				67B60FAC17BC4DA800C7FBC1 /* GTViewController.h */,
 				67B60FAD17BC4DA800C7FBC1 /* GTViewController.m */,
+				67B65D4B17BD797B0017C824 /* Model */,
 				67B60FB417BC505A00C7FBC1 /* Scenes */,
 				67B60F9517BC4DA800C7FBC1 /* Supporting Files */,
 			);
@@ -129,8 +133,17 @@
 				67B65D4617BC55CA0017C824 /* GTPatternTwoViewController.m */,
 				67B65D4817BC65A70017C824 /* GTPatternThreeViewController.h */,
 				67B65D4917BC65A70017C824 /* GTPatternThreeViewController.m */,
+				67B65D4C17BD79900017C824 /* GTReverseViewController.h */,
+				67B65D4D17BD79900017C824 /* GTReverseViewController.m */,
 			);
 			name = Scenes;
+			sourceTree = "<group>";
+		};
+		67B65D4B17BD797B0017C824 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,6 +220,7 @@
 				67B60FB717BC506F00C7FBC1 /* GTPatternOneViewController.m in Sources */,
 				67B65D4717BC55CA0017C824 /* GTPatternTwoViewController.m in Sources */,
 				67B65D4A17BC65A70017C824 /* GTPatternThreeViewController.m in Sources */,
+				67B65D4E17BD79900017C824 /* GTReverseViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
