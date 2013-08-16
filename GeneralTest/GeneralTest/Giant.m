@@ -11,5 +11,11 @@
 
 @implementation Giant
 
+-(void)awakeFromInsert
+{
+	[super awakeFromInsert];
+	self.name = @"Giant";
+	self.hitPoints = @300;
+}
 
 @end

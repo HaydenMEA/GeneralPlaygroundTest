@@ -20,6 +20,8 @@
 		01612AC517BD994A0037ED45 /* Attacker.m in Sources */ = {isa = PBXBuildFile; fileRef = 01612AC417BD994A0037ED45 /* Attacker.m */; };
 		01612AC817BD99AE0037ED45 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 01612AC717BD99AE0037ED45 /* Player.m */; };
 		01612ACB17BD9F190037ED45 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01612AC917BD9F0F0037ED45 /* CoreData.framework */; };
+		01612ACE17BDA38A0037ED45 /* GTClanManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 01612ACD17BDA38A0037ED45 /* GTClanManager.m */; };
+		01612AD217BDAFF20037ED45 /* NSManagedObjectContext+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 01612AD017BDA6160037ED45 /* NSManagedObjectContext+Helper.m */; };
 		67B60F8F17BC4DA800C7FBC1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67B60F8E17BC4DA800C7FBC1 /* UIKit.framework */; };
 		67B60F9117BC4DA800C7FBC1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67B60F9017BC4DA800C7FBC1 /* Foundation.framework */; };
 		67B60F9317BC4DA800C7FBC1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67B60F9217BC4DA800C7FBC1 /* CoreGraphics.framework */; };
@@ -63,6 +65,10 @@
 		01612AC617BD99AE0037ED45 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
 		01612AC717BD99AE0037ED45 /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
 		01612AC917BD9F0F0037ED45 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		01612ACC17BDA38A0037ED45 /* GTClanManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTClanManager.h; sourceTree = "<group>"; };
+		01612ACD17BDA38A0037ED45 /* GTClanManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTClanManager.m; sourceTree = "<group>"; };
+		01612ACF17BDA6160037ED45 /* NSManagedObjectContext+Helper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSManagedObjectContext+Helper.h"; sourceTree = "<group>"; };
+		01612AD017BDA6160037ED45 /* NSManagedObjectContext+Helper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObjectContext+Helper.m"; sourceTree = "<group>"; };
 		67B60F8B17BC4DA800C7FBC1 /* GeneralTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeneralTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		67B60F8E17BC4DA800C7FBC1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		67B60F9017BC4DA800C7FBC1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -173,6 +179,15 @@
 			name = Attackers;
 			sourceTree = "<group>";
 		};
+		01612AD117BDA61D0037ED45 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				01612ACF17BDA6160037ED45 /* NSManagedObjectContext+Helper.h */,
+				01612AD017BDA6160037ED45 /* NSManagedObjectContext+Helper.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
 		67B60F8217BC4DA800C7FBC1 = {
 			isa = PBXGroup;
 			children = (
@@ -210,6 +225,7 @@
 				67B60FA917BC4DA800C7FBC1 /* MainStoryboard_iPad.storyboard */,
 				67B60FAC17BC4DA800C7FBC1 /* GTViewController.h */,
 				67B60FAD17BC4DA800C7FBC1 /* GTViewController.m */,
+				01612AD117BDA61D0037ED45 /* Categories */,
 				67B65D4B17BD797B0017C824 /* Model */,
 				67B60FB417BC505A00C7FBC1 /* Scenes */,
 				67B60F9517BC4DA800C7FBC1 /* Supporting Files */,
@@ -247,6 +263,8 @@
 			isa = PBXGroup;
 			children = (
 				0148CE5417BD7FA6001A558C /* Model.xcdatamodeld */,
+				01612ACC17BDA38A0037ED45 /* GTClanManager.h */,
+				01612ACD17BDA38A0037ED45 /* GTClanManager.m */,
 				01612A9C17BD97CD0037ED45 /* Units.h */,
 				01612A9D17BD97CD0037ED45 /* Units.m */,
 				01612AC617BD99AE0037ED45 /* Player.h */,
@@ -343,6 +361,8 @@
 				01612ABC17BD983A0037ED45 /* Goblin.m in Sources */,
 				01612AC517BD994A0037ED45 /* Attacker.m in Sources */,
 				01612AC817BD99AE0037ED45 /* Player.m in Sources */,
+				01612ACE17BDA38A0037ED45 /* GTClanManager.m in Sources */,
+				01612AD217BDAFF20037ED45 /* NSManagedObjectContext+Helper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

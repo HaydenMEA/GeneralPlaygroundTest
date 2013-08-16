@@ -9,7 +9,6 @@
 #import "Player.h"
 #import "Attacker.h"
 
-
 @implementation Player
 
 @dynamic attackers;

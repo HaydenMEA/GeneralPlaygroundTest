@@ -11,5 +11,11 @@
 
 @implementation Ballon
 
+-(void)awakeFromInsert
+{
+	[super awakeFromInsert];
+	self.name = @"Ballon";
+	self.hitPoints = @150;
+}
 
 @end

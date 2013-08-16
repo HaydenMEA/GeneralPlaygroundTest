@@ -93,13 +93,16 @@
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cd1-m6-jUc">
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="Button">
+                                <state key="normal" title="Barbarian">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="Barbarian:" destination="mmy-zh-fhq" eventType="touchUpInside" id="10X-dY-j7V"/>
+                                </connections>
                             </button>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="WYO-EI-6DK">
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -107,12 +110,24 @@
                                     <constraint firstAttribute="height" constant="261" id="ltQ-Qp-tAT"/>
                                 </constraints>
                                 <prototypes>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" indentationWidth="10" reuseIdentifier="Cell" id="agJ-IX-uhs">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" indentationWidth="10" reuseIdentifier="Cell" textLabel="PsY-kH-evf" detailTextLabel="3hW-R9-BU2" style="IBUITableViewCellStyleValue1" id="agJ-IX-uhs">
                                         <rect key="frame" x="0.0" y="22" width="280" height="44"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="0.0" y="0.0" width="280" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PsY-kH-evf">
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                </label>
+                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Detail" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3hW-R9-BU2">
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" red="0.2196078431372549" green="0.32941176470588235" blue="0.52941176470588236" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                </label>
+                                            </subviews>
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         </view>
                                     </tableViewCell>
@@ -122,14 +137,89 @@
                                     <outlet property="delegate" destination="mmy-zh-fhq" id="5hb-Fz-coH"/>
                                 </connections>
                             </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G6S-rQ-haA">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Archer">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="Archer:" destination="mmy-zh-fhq" eventType="touchUpInside" id="KVg-wI-Gkz"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6bL-Y1-eaK">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="WallBreaker">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="WallBreaker:" destination="mmy-zh-fhq" eventType="touchUpInside" id="l6p-n9-etY"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uVH-32-I0F">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Giant">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="Giant:" destination="mmy-zh-fhq" eventType="touchUpInside" id="bb6-O9-l2L"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SQE-nN-FR0">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Goblin">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="Goblin:" destination="mmy-zh-fhq" eventType="touchUpInside" id="x9G-Jx-ZTW"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7f6-Tb-PaD">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Ballon">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="Ballon:" destination="mmy-zh-fhq" eventType="touchUpInside" id="DJz-M5-4HS"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="Cd1-m6-jUc" firstAttribute="leading" secondItem="chy-Is-Bnm" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="60N-ZQ-IfM"/>
                             <constraint firstItem="WYO-EI-6DK" firstAttribute="top" secondItem="chy-Is-Bnm" secondAttribute="top" constant="20" symbolic="YES" type="default" id="H1m-XD-3ga"/>
-                            <constraint firstAttribute="bottom" secondItem="Cd1-m6-jUc" secondAttribute="bottom" constant="118" id="Jt4-Oa-IrO"/>
                             <constraint firstItem="WYO-EI-6DK" firstAttribute="leading" secondItem="chy-Is-Bnm" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="Nlq-vo-B8Z"/>
+                            <constraint firstItem="Cd1-m6-jUc" firstAttribute="leading" secondItem="chy-Is-Bnm" secondAttribute="leading" constant="13" id="OCg-Zh-6TG"/>
+                            <constraint firstItem="7f6-Tb-PaD" firstAttribute="baseline" secondItem="SQE-nN-FR0" secondAttribute="baseline" type="default" id="QGP-bN-LMx"/>
+                            <constraint firstItem="uVH-32-I0F" firstAttribute="leading" secondItem="Cd1-m6-jUc" secondAttribute="leading" type="default" id="XWo-iM-FDU"/>
                             <constraint firstAttribute="trailing" secondItem="WYO-EI-6DK" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="Xqv-YT-FNm"/>
+                            <constraint firstItem="7f6-Tb-PaD" firstAttribute="leading" secondItem="SQE-nN-FR0" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="YT8-Aj-dUt"/>
+                            <constraint firstItem="6bL-Y1-eaK" firstAttribute="baseline" secondItem="G6S-rQ-haA" secondAttribute="baseline" type="default" id="ZAB-h2-MLJ"/>
+                            <constraint firstAttribute="bottom" secondItem="uVH-32-I0F" secondAttribute="bottom" constant="67" id="cQg-Du-t15"/>
+                            <constraint firstItem="6bL-Y1-eaK" firstAttribute="leading" secondItem="G6S-rQ-haA" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="dAE-lD-fxB"/>
+                            <constraint firstItem="uVH-32-I0F" firstAttribute="top" secondItem="Cd1-m6-jUc" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="g25-c2-QO0"/>
+                            <constraint firstItem="G6S-rQ-haA" firstAttribute="baseline" secondItem="Cd1-m6-jUc" secondAttribute="baseline" type="default" id="jLm-mS-5Uk"/>
+                            <constraint firstItem="SQE-nN-FR0" firstAttribute="baseline" secondItem="uVH-32-I0F" secondAttribute="baseline" type="default" id="rrh-Hq-hfJ"/>
+                            <constraint firstItem="SQE-nN-FR0" firstAttribute="leading" secondItem="uVH-32-I0F" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="twl-Pa-qrJ"/>
+                            <constraint firstItem="G6S-rQ-haA" firstAttribute="leading" secondItem="Cd1-m6-jUc" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="zV5-ji-waD"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="g2d-fz-PT7"/>
@@ -224,6 +314,12 @@
         <class className="GTReverseViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/GTReverseViewController.h"/>
             <relationships>
+                <relationship kind="action" name="Archer:"/>
+                <relationship kind="action" name="Ballon:"/>
+                <relationship kind="action" name="Barbarian:"/>
+                <relationship kind="action" name="Giant:"/>
+                <relationship kind="action" name="Goblin:"/>
+                <relationship kind="action" name="WallBreaker:"/>
                 <relationship kind="outlet" name="tableView" candidateClass="UITableView"/>
             </relationships>
         </class>

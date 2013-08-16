@@ -11,5 +11,11 @@
 
 @implementation Barbarian
 
+-(void)awakeFromInsert
+{
+	[super awakeFromInsert];
+	self.name = @"Barbarian";
+	self.hitPoints = @45;
+}
 
 @end

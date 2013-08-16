@@ -11,5 +11,11 @@
 
 @implementation Archer
 
+-(void)awakeFromInsert
+{
+	[super awakeFromInsert];
+	self.name = @"Archer";
+	self.hitPoints = @20;
+}
 
 @end

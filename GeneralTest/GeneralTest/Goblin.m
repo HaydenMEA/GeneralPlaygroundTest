@@ -11,5 +11,11 @@
 
 @implementation Goblin
 
+-(void)awakeFromInsert
+{
+	[super awakeFromInsert];
+	self.name = @"Goblin";
+	self.hitPoints = @25;
+}
 
 @end

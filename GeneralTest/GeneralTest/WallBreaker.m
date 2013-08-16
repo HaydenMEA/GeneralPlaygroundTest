@@ -11,5 +11,11 @@
 
 @implementation WallBreaker
 
+-(void)awakeFromInsert
+{
+	[super awakeFromInsert];
+	self.name = @"Wall Breaker";
+		self.hitPoints = @20;
+}
 
 @end
